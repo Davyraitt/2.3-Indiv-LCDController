@@ -1,16 +1,13 @@
+//
+// Created by Davy on 2-3-2021.
+// LCD class. You can use the methods in this class to initialise the lcd,
+// write to the lcd, update the lcd, or clear the lcd.
+// So everything that has to do with controlling the LCD.
+// INDIVIDUAL PROJECT BY DAVY RAITT
+//
+
 #ifndef MENU_LCD_H
 #define MENU_LCD_H
-
-#include <stdio.h>
-#include <string.h>
-#include "hd44780.h"
-#include "pcf8574.h"
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "esp_log.h"
-#include "statusbar/statusbar.h"
-#include <stddef.h>
-#include "MenuItem.h"
 
 struct LcdQueueItem
 {

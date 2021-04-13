@@ -3,6 +3,7 @@
 // LCD class. You can use the methods in this class to initialise the lcd,
 // write to the lcd, update the lcd, or clear the lcd.
 // So everything that has to do with controlling the LCD.
+// INDIVIDUAL PROJECT BY DAVY RAITT
 //
 
 //Includes
